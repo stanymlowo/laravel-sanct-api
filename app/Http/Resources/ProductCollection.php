@@ -17,8 +17,8 @@ class ProductCollection extends ResourceCollection
         return [
             'status' => [
                 'message' =>'OK',
-                'code'=> '200'],
-            'product' => $this->collection
+                'code'=> '200',
+            'product' => $this->collection]
         ];
     }
 }
